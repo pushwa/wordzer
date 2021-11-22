@@ -1,0 +1,16 @@
+{
+  "forbiddenWords": ["fuck", "whore", "shit"],
+  "forbiddenTxt": "The word is forbidden. Type a new word.",
+  "savedWords": ["hotels", "glitterbombs", "cars"],
+  "desc": ["Text about the word 'hotels'", "Text about the word 'glitterbombs'", "Text about the word 'cars'"],
+  "typeWord": "Type a word",
+  "spacebar": "Spacebar is  disabled",
+  "bladeRunnerHeading": "Blade Runner monologue",
+  "bladeRunner" : "I've seen xxxx you people wouldn't believe. Attack ships on fire off the shoulder of Orion. I watched xxxx in the dark near the Tannhauser Gate. All those xxxx will be lost in time, like tears in rain.",
+  "mandalorianHeading": "Mandalorian monologue",
+  "mandalorian": "If you are unfamiliar with xxxx, I am sure that Republican Shock Trooper Carasynthia Dune of Alderaan will advise you that she has witnessed many of her ranks vaporize mid-descent facing the predecessor of xxxx.",
+  "ghostInTheShellHeading": "Ghost In the Shell monologue",
+  "ghostInTheShell": "It can also be argued that xxxx is nothing more than a program designed to preserve itself. What if xxxx could possibly generate its own xxxx, create xxxx all by itself? And if it did, just what would be the importance of being human then?",
+  "matrixHeading": "The Matrix monologue",
+  "matrix": "The Matrix is a system. That system is our enemy. But when you're inside, you look around, what do you see? xxxx, teachers, lawyers, carpenters. These people are still a part of that system. You have to understand, most of these people are not ready to be unplugged. And many of them are so inured, so hopelessly dependent on xxxx."
+}

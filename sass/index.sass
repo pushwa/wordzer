@@ -1,0 +1,129 @@
+
+$fontStack: 'Roboto Condensed', sans-serif
+
+$colorBodyBackground: rgb(235, 231, 226)
+$colorInputText: #f1d9c0
+$colorInputBackground: #ceab89
+$colorTxt: #3b8b3e
+$colorButtonBackground: #4caf50
+$colorButtonHover: #3e9443
+
+@mixin mobileTap()
+  user-select: none
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+
+@mixin centerAbsPos()
+  left: 50%
+  transform: translate(-50%, -50%)
+
+@mixin fontStuff($gap)
+  font-weight: 300
+  letter-spacing: $gap
+  text-align: center
+
+body
+  background-color: $colorBodyBackground
+  margin: 0
+  padding: 0
+  @include fontStuff(0.3vw)
+
+.tg
+  background-color: #45c5a9
+  border-radius: 50%
+  width: 5vw
+  height: 5vw
+  position: absolute
+  top: 5vw
+  right: 5vw
+  z-index: 999
+  color: transparent
+
+.tgColor
+  background-color: #44a9d1
+
+h1
+  font-family: $fontStack
+  font-weight: 300
+  font-size: 3.1vw
+  margin: 4vw 0 2vw 0
+
+input
+  font-family: $fontStack
+  font-size: 2vw
+  color: $colorInputText
+  padding: 2.2vw 9vw
+  background: $colorInputBackground
+  border: 0
+  border-radius: 1vw
+  display: block
+  margin: 0 auto
+  @include fontStuff(0.04vw)
+
+input:focus
+  outline-color: transparent
+  outline-style: none
+
+.word
+  font-family: $fontStack
+  font-size: 2vw
+  color: $colorTxt
+  margin: 2.1vw 0
+  @include fontStuff(0.04vw)
+
+button
+  font-family: $fontStack
+  font-size: 1.4vw
+  text-decoration: none
+  color: white
+  padding: 1.5vw 4vw
+  background: $colorButtonBackground
+  transition: background 500ms
+  border-radius: 0.5vw
+  border: none
+  display: block
+  position: absolute
+  top: 25.6vw
+  @include centerAbsPos
+  @include mobileTap
+  @include fontStuff(0.2vw)
+
+button:focus
+  outline-color: transparent
+  outline-style: none
+
+button:hover
+  background: $colorButtonHover
+  transition: background 500ms
+
+.wrapper
+  font-family: $fontStack
+  width: 100vw
+  height: auto
+  padding: 0 15vw
+  box-sizing: border-box
+  position: absolute
+  top: 33vw
+  @include fontStuff(0.04vw)
+
+  h2
+    font-size: 3vw
+    font-weight: 300
+    line-height: 2.7vw
+    margin: 0
+    padding: 0 0 2vw 0
+
+  .txt
+    font-size: 2vw
+    line-height: 2.7vw
+    margin: 0 0 3.5vw 0
+
+  h3
+    font-size: 3vw
+    font-weight: 300
+    line-height: 2.7vw
+    margin: 0
+
+  .description
+    font-size: 2vw
+    line-height: 2.7vw
+    margin: 1vw 0

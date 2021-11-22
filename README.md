@@ -1,0 +1,3 @@
+# WORDZER
+
+The Wordzer project
