@@ -1,3 +1,3 @@
 # WORDZER
 
-Bash command: npm install
+Bash: npm install
