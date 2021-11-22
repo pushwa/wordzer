@@ -17,6 +17,12 @@ tg.addEventListener('click', () => {
 });
 
 //
+function theToggle() {
+  const body = document.querySelector('body');
+  body.classList.toggle('mainBackgroundDark');
+}
+
+//
 const theVoid = {
   inpValue: (inp.value = ''),
   word: (word.innerHTML = ''),

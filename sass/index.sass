@@ -5,12 +5,14 @@ $colorBodyBackground: rgb(235, 231, 226)
 $colorInputText: #f1d9c0
 $colorInputBackground: #ceab89
 $colorTxt: #3b8b3e
+$colorTxtDark: #54b458
 $colorButtonBackground: #4caf50
+$darkBackground: #422c28
 $colorButtonHover: #3e9443
 
 @mixin mobileTap()
   user-select: none
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+  -webkit-tap-highlight-color: rgba(20, 18, 18, 0)
 
 @mixin centerAbsPos()
   left: 50%
@@ -27,8 +29,12 @@ body
   padding: 0
   @include fontStuff(0.3vw)
 
+.mainBackgroundDark
+  background-color: $darkBackground
+  color: $colorTxtDark
+
 .tg
-  background-color: #45c5a9
+  background-color: $colorButtonBackground
   border-radius: 50%
   width: 5vw
   height: 5vw
@@ -39,7 +45,7 @@ body
   color: transparent
 
 .tgColor
-  background-color: #44a9d1
+  background-color: $colorInputBackground
 
 h1
   font-family: $fontStack
