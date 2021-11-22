@@ -1,3 +1,3 @@
 # WORDZER
 
-The Wordzer project Bash command: npm install
+Bash command: npm install
