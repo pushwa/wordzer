@@ -93,6 +93,7 @@ button:hover {
   padding: 0 15vw;
   box-sizing: border-box;
   position: absolute;
+  overflow-x: hidden;
   top: 33vw;
   font-weight: 300;
   letter-spacing: 0.04vw;
